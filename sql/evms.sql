@@ -29,6 +29,7 @@ create table users (
   last_updated_by varchar(100) not null
 );
 
+-- Password:  tset
 insert into users (username, password, role, enabled, created_date, created_by, last_updated_date, last_updated_by) values
-('user', '$2y$12$0nrCQQwnpV7qVopwJJSVOebpGq8SV.V7vBG.IanrjZikpDjK360mu', 'ROLE_USER', 1, current_timestamp, 'Mohammed Monirul Islam', current_timestamp, 'Mohammed Monirul Islam'),
-('admin', '$2y$12$2ty2epgvInaUT4tGvKcpD.xh8ObeSe6ME4OFyvv2ls/0iKJbqXzUq', 'ROLE_ADMIN', 1, current_timestamp, 'Mohammed Monirul Islam', current_timestamp, 'Mohammed Monirul Islam');
+('user', '$2y$10$bmTgt1b7sTw81sb3Vxl8duftevcYHSgAVYD1qZVZKxOGHE3oO3KCG', 'ROLE_USER', 1, current_timestamp, 'Mohammed Monirul Islam', current_timestamp, 'Mohammed Monirul Islam'),
+('admin', '$2y$10$bmTgt1b7sTw81sb3Vxl8duftevcYHSgAVYD1qZVZKxOGHE3oO3KCG', 'ROLE_ADMIN', 1, current_timestamp, 'Mohammed Monirul Islam', current_timestamp, 'Mohammed Monirul Islam');
